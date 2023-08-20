@@ -1,0 +1,21 @@
+{
+  "name": "tsstarter",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs --dts --minify --clean --sourcemap --legacy-output",
+    "dev": "concurrently \"tsup src/index.ts --watch --format esm \" \"nodemon index.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.5.1",
+    "concurrently": "^8.2.0",
+    "nodemon": "^3.0.1",
+    "tsup": "^7.2.0",
+    "typescript": "^5.1.6"
+  }
+}
