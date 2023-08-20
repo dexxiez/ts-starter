@@ -1,7 +1,3 @@
-Sure, here's a Markdown-formatted README for your "ts-starter" project:
-
----
-
 # ts-starter
 
 [![License](https://img.shields.io/badge/license-ISC-blue.svg)](https://opensource.org/licenses/ISC)
