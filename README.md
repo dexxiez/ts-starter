@@ -2,6 +2,7 @@
 
 [![License](https://img.shields.io/badge/license-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/dexxiez/ts-starter)
+![Static Badge](https://img.shields.io/badge/FULLY-SICK-hotpink)
 
 A template for TypeScript projects.
 
