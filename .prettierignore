@@ -1,0 +1,57 @@
+# Build outputs
+dist/
+build/
+out/
+.next/
+coverage/
+
+# Package management
+node_modules/
+.pnpm-store/
+pnpm-lock.yaml
+
+# Cache directories
+.cache/
+.eslintcache
+.stylelintcache
+.parcel-cache
+
+# Environment and config files
+.env*
+.dockerignore
+Dockerfile*
+*.config.js
+*.config.ts
+
+# Generated files
+*.generated.*
+*.min.*
+*.bundle.*
+*.chunk.*
+
+# Version control
+.git/
+.gitignore
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Misc assets that don't need formatting
+*.ico
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.woff
+*.woff2
+*.eot
+*.ttf
+*.otf
+
+# Documentation
+*.md
+LICENSE

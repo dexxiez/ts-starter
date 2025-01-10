@@ -1,0 +1,21 @@
+{
+  "name": "ts-basic",
+  "version": "1.0.0",
+  "description": "Basic TypeScript project starter",
+  "main": "dist/app.js",
+  "scripts": {
+    "dev": "tsx src/app.ts",
+    "start": "tsx src/app.ts",
+    "build": "tsc -p .",
+    "test": "echo LMAO"
+  },
+  "keywords": [],
+  "author": "Dexxiez",
+  "license": "UNLICENCE",
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "prettier": "^3.4.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
